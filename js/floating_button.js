@@ -1,7 +1,12 @@
 $(document).ready(function() {
-  $(".float").on('click', function () {
-    scrollToAnchor();
-  });
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (500 < currentScrollPos) {
+      document.getElementById("go_up").style.display='';
+    } else {
+      document.getElementById("go_up").style.display ='none';
+    }
+  }
 });
 
 function scrollToAnchor() {

@@ -10285,7 +10285,7 @@ p .label-custom {
 
 .label-price {
     max-width: 245px;
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto
 }
 
@@ -10294,7 +10294,6 @@ p .label-custom {
 }
 
 .label-price h1:before {
-    content: "$";
     display: inline-block;
     font-size: 36px;
     vertical-align: super

@@ -1,4 +1,4 @@
-.float{
+.sw_float{
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -6,7 +6,8 @@
 	right:40px;
 	background-color:#a4bb39;
 	color:#FFF;
-	border-radius:50px;
+  border-radius:50px;
+  z-index: 6;
 	text-align:center;
   box-shadow: 2px 2px 3px #d99244;
   font-size: 4rem;
@@ -16,6 +17,10 @@
   padding-bottom: 5px;
 }
 
-.float .my-float:hover{
+.my-float:hover{
+  color: #01539d
+}
+
+.sw_float:hover{
   color: #01539d
 }
