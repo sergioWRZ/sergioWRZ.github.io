@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/floating_buttom.css">
     <link rel="stylesheet" href="css/style.css">
-
-  </head>
+</head>
   <body>
     <div class="page-loader">
       <div class="page-loader-body">
@@ -25,7 +24,7 @@
       </div>
     </div>
     <!-- Page-->
-    <div class="page text-center">
+    <div id="main_header" class="page text-center">
       <!-- Page Header-->
       <header class="page-head">
         <!-- RD Navbar-->
@@ -45,17 +44,18 @@
                       </svg>
                     </div></a>
                 </div>
-<!-- NAVBAR -->
-<div class="rd-navbar-nav-wrap">
+
+  <!-- NAVBAR -->
+ <div class="rd-navbar-nav-wrap">
     <ul class="rd-navbar-nav">
       <li>
         <a class="navbar-icon" href="about_us.html"> <i class="fas fa-users" ></i> Quienes somos</a>
       </li>
       <li>
-        <a class="navbar-icon" href="#"> <i class="fas fa-map-marker-alt"></i> Contactanos</a>
+        <a class="navbar-icon" href="contacts.html"> <i class="fas fa-map-marker-alt"></i> Contactanos</a>
       </li>
       <li>
-        <a class="navbar-icon" href="#"> <i class="fas fa-newspaper"></i> Noticias</a>
+        <a class="navbar-icon" href="blog-classic.html"> <i class="fas fa-newspaper"></i> Noticias</a>
       </li>
       <li>
         <a class="navbar-icon" href="#"> <i class="fa fa-link"></i> Biofood</a>
@@ -92,37 +92,40 @@
               <div class="cell-xs-12 cell-xl-preffix-1 cell-xl-11">
                 <p class="h3 text-white">Sobre nosotros</p>
 
+              </div>
+            </div>
+          </div>
         </section>
 
         <section class="text-center text-sm-left section-50 section-sm-top-100 section-sm-bottom-205 section-with-angle bg-black-haze">
           <div class="shell">
             <div class="range range-xs-center range-md-right">
               <div class="cell-sm-10 cell-md-6">
-                <h4 class="font-default">A Few Words About QuickFood</h4>
-                <p>QuickFood, one of today’s most renowned fast food restaurants, was established in 2013, as a quiet place where anyone could eat a burger or have a pizza that they loved. Our dedication to customers and quality food helps us to reach more today.</p>
+                <h4 class="font-default">Algunas palabras sobre Pacusito</h4>
+                <p>Pacusito, uno de los restaurantes de comida rápida más famosos de hoy en día, se estableció en 2013, como un lugar tranquilo donde cualquiera podía comer una hamburguesa o comer una pizza que les encantara. Nuestra dedicación a los clientes y la comida de calidad nos ayuda a llegar a más hoy.</p>
                 <div class="range range-xs-center offset-top-30 text-center">
                   <div class="cell-xs-6 cell-sm-4">
                     <!-- CountTo-->
                     <div class="counter text-primary" data-from="0" data-to="20">20</div>
                     <div class="counter-header">
-                      <p>burgers sold</p>
+                      <p>Hamburguesas vendidas</p>
                     </div>
                   </div>
                   <div class="cell-xs-6 cell-sm-4">
                     <!-- CountTo-->
                     <div class="counter text-primary" data-from="0" data-to="1300">1300</div>
                     <div class="counter-header">
-                      <p>Pizzas made</p>
+                      <p>Pizzas hechas</p>
                     </div>
                   </div>
                   <div class="cell-xs-6 cell-sm-4">
                     <!-- CountTo-->
                     <div class="counter text-primary" data-from="0" data-to="564">564</div>
                     <div class="counter-header">
-                      <p>clients everyday</p>
+                      <p>clientes todos los dias</p>
                     </div>
                   </div>
-                </div><a class="btn btn-shape-circle btn-burnt-sienna offset-top-40" href="menu-classic.html">e ourSe menu</a>
+                </div><a class="btn btn-shape-circle btn-burnt-sienna offset-top-40" href="menu-classic.html">Nuestro menu</a>
               </div>
             </div>
           </div>
@@ -131,7 +134,7 @@
         <section class="section-50 section-sm-top-90 section-sm-bottom-70">
           <div class="shell">
             <h4 class="font-default">Conozca a nuestro equipo</h4>
-            <p>QuickFood’s team is what makes marks us out from other fast food restaurants. Everyone of us, <br class="visible-lg-inline"> from founders to waiters, is a part of a friendly family, who always welcomes new members!</p>
+            <p>El equipo de Pacusito es lo que nos distingue de otros restaurantes de comida rápida. Cada uno de nosotros, <br class="visible-lg-inline"> Desde fundadores hasta camareros, es parte de una familia amigable, ¡que siempre da la bienvenida a los nuevos miembros!</p>
             <div class="range range-xs-center offset-top-45">
               <div class="cell-sm-6 cell-md-4">
                 <div class="thumbnail-variant-2"><img class="img-responsive" src="images/about-08-326x330.jpg" alt="" width="326" height="330"/>
@@ -261,44 +264,15 @@
             </div>
           </section>
         </footer>
-        
+
+        <button id="go_up" onclick="scrollToAnchor();" class="sw_float">
+          <i class="fas fa-angle-up my-float"></i>
+        </button>
+      </div>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- PhotoSwipe Gallery-->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="pswp__bg"></div>
-      <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-        </div>
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <div class="pswp__counter"></div>
-            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-            <button class="pswp__button pswp__button--share" title="Share"></button>
-            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-            <div class="pswp__share-tooltip"></div>
-          </div>
-          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-          <div class="pswp__caption">
-            <div class="pswp__caption__cent"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- Java script-->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/core.min.js"></script>
     <script src="js/all.js"></script>

@@ -1,6 +1,7 @@
 $(document).ready(function() {
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
+    console.log(currentScrollPos)
     if (500 < currentScrollPos) {
       document.getElementById("go_up").style.display='';
     } else {
