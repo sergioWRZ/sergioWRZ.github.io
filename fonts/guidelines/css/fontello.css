@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?67446309');
+  src: url('../font/fontello.eot?67446309#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?67446309') format('woff2'),
+       url('../font/fontello.woff?67446309') format('woff'),
+       url('../font/fontello.ttf?67446309') format('truetype'),
+       url('../font/fontello.svg?67446309#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?67446309#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon--_1:before { content: '\e800'; } /* '' */
+.icon--_2:before { content: '\e801'; } /* '' */
+.icon--_3:before { content: '\e802'; } /* '' */
+.icon--:before { content: '\e803'; } /* '' */
+.icon-abrigo:before { content: '\e804'; } /* '' */
+.icon-actualizar:before { content: '\e805'; } /* '' */
+.icon-acuerdo:before { content: '\e806'; } /* '' */
+.icon-add_bold:before { content: '\e807'; } /* '' */
+.icon-add:before { content: '\e808'; } /* '' */
+.icon-alerta:before { content: '\e809'; } /* '' */
+.icon-android:before { content: '\e80b'; } /* '' */
+.icon-apartado_fav:before { content: '\e80c'; } /* '' */
+.icon-apartado:before { content: '\e80d'; } /* '' */
+.icon-apple:before { content: '\e80e'; } /* '' */
+.icon-apuntes:before { content: '\e80f'; } /* '' */
+.icon-arbol_temas:before { content: '\e810'; } /* '' */
+.icon-archivo:before { content: '\e811'; } /* '' */
+.icon-arcoiris:before { content: '\e812'; } /* '' */
+.icon-barba:before { content: '\e813'; } /* '' */
+.icon-bien_1:before { content: '\e814'; } /* '' */
+.icon-bien-checkbox:before { content: '\e815'; } /* '' */
+.icon-bien:before { content: '\e816'; } /* '' */
+.icon-bloque:before { content: '\e817'; } /* '' */
+.icon-boca:before { content: '\e818'; } /* '' */
+.icon-borrar:before { content: '\e819'; } /* '' */
+.icon-brillo:before { content: '\e81a'; } /* '' */
+.icon-btn_flecha_circulo:before { content: '\e81b'; } /* '' */
+.icon-cabeza:before { content: '\e81c'; } /* '' */
+.icon-cafe_dos:before { content: '\e81d'; } /* '' */
+.icon-cafe:before { content: '\e81e'; } /* '' */
+.icon-calendario_fechas:before { content: '\e81f'; } /* '' */
+.icon-calendario:before { content: '\e820'; } /* '' */
+.icon-camiseta:before { content: '\e821'; } /* '' */
+.icon-campana:before { content: '\e822'; } /* '' */
+.icon-carpeta_cerrada:before { content: '\e823'; } /* '' */
+.icon-carpeta:before { content: '\e824'; } /* '' */
+.icon-carrito:before { content: '\e825'; } /* '' */
+.icon-casa:before { content: '\e826'; } /* '' */
+.icon-caso_practico:before { content: '\e827'; } /* '' */
+.icon-ceja:before { content: '\e828'; } /* '' */
+.icon-cerebro_rayo:before { content: '\e829'; } /* '' */
+.icon-cerebro:before { content: '\e82a'; } /* '' */
+.icon-cerrar:before { content: '\e82b'; } /* '' */
+.icon-chat:before { content: '\e82c'; } /* '' */
+.icon-check_meludus:before { content: '\e82d'; } /* '' */
+.icon-chocolate:before { content: '\e82e'; } /* '' */
+.icon-closed:before { content: '\e82f'; } /* '' */
+.icon-codigo_postal:before { content: '\e830'; } /* '' */
+.icon-coloretes:before { content: '\e831'; } /* '' */
+.icon-comillas:before { content: '\e832'; } /* '' */
+.icon-configuracion:before { content: '\e833'; } /* '' */
+.icon-copa:before { content: '\e834'; } /* '' */
+.icon-demo:before { content: '\e835'; } /* '' */
+.icon-descuento_etiqueta:before { content: '\e836'; } /* '' */
+.icon-dinero-inversión:before { content: '\e837'; } /* '' */
+.icon-direcciones:before { content: '\e838'; } /* '' */
+.icon-doble_taza_te:before { content: '\e839'; } /* '' */
+.icon-doble_taza_cafe:before { content: '\e83a'; } /* '' */
+.icon-doble-flecha:before { content: '\e83b'; } /* '' */
+.icon-email:before { content: '\e83c'; } /* '' */
+.icon-estrella:before { content: '\e83d'; } /* '' */
+.icon-fb:before { content: '\e83e'; } /* '' */
+.icon-examen:before { content: '\e83f'; } /* '' */
+.icon-fichas_memo:before { content: '\e840'; } /* '' */
+.icon-fichas_memoria:before { content: '\e841'; } /* '' */
+.icon-fichas_memoria_2:before { content: '\e842'; } /* '' */
+.icon-fireworks-:before { content: '\e843'; } /* '' */
+.icon-flecha_con-tope:before { content: '\e844'; } /* '' */
+.icon-flecha_desplegar:before { content: '\e845'; } /* '' */
+.icon-flecha:before { content: '\e846'; } /* '' */
+.icon-folio:before { content: '\e847'; } /* '' */
+.icon-gafas:before { content: '\e848'; } /* '' */
+.icon-globo_estrella:before { content: '\e849'; } /* '' */
+.icon-globo_vacio:before { content: '\e84a'; } /* '' */
+.icon-grupos:before { content: '\e84b'; } /* '' */
+.icon-guantes:before { content: '\e84c'; } /* '' */
+.icon-ig:before { content: '\e84d'; } /* '' */
+.icon-info:before { content: '\e84e'; } /* '' */
+.icon-ludin:before { content: '\e84f'; } /* '' */
+.icon-ludus:before { content: '\e850'; } /* '' */
+.icon-lupa:before { content: '\e851'; } /* '' */
+.icon-invitar_amigo:before { content: '\e852'; } /* '' */
+.icon-justicia:before { content: '\e853'; } /* '' */
+.icon-lapiz:before { content: '\e854'; } /* '' */
+.icon-libro_cerrado:before { content: '\e855'; } /* '' */
+.icon-libreta_barras:before { content: '\e856'; } /* '' */
+.icon-libro:before { content: '\e857'; } /* '' */
+.icon-like:before { content: '\e858'; } /* '' */
+.icon-line-checkbox:before { content: '\e859'; } /* '' */
+.icon-link:before { content: '\e85a'; } /* '' */
+.icon-mal:before { content: '\e85b'; } /* '' */
+.icon-marketing:before { content: '\e85c'; } /* '' */
+.icon-mas:before { content: '\e85d'; } /* '' */
+.icon-menu_aula_expand:before { content: '\e85e'; } /* '' */
+.icon-menu_aula:before { content: '\e85f'; } /* '' */
+.icon-menu_display:before { content: '\e860'; } /* '' */
+.icon-menu_h_1:before { content: '\e861'; } /* '' */
+.icon-menu_hamb:before { content: '\e862'; } /* '' */
+.icon-menu_index_display:before { content: '\e863'; } /* '' */
+.icon-menu_logros:before { content: '\e864'; } /* '' */
+.icon-menu_ranking:before { content: '\e865'; } /* '' */
+.icon-menu-puntos:before { content: '\e866'; } /* '' */
+.icon-mesa-de-trabajo-30-copia-32:before { content: '\e867'; } /* '' */
+.icon-metodologias:before { content: '\e868'; } /* '' */
+.icon-micro:before { content: '\e869'; } /* '' */
+.icon-movil:before { content: '\e86a'; } /* '' */
+.icon-multidispositivo:before { content: '\e86b'; } /* '' */
+.icon-mundo:before { content: '\e86c'; } /* '' */
+.icon-musica_1:before { content: '\e86d'; } /* '' */
+.icon-musica_3:before { content: '\e86e'; } /* '' */
+.icon-musica_2:before { content: '\e86f'; } /* '' */
+.icon-nariz:before { content: '\e870'; } /* '' */
+.icon-no_pregunta:before { content: '\e871'; } /* '' */
+.icon-no_reloj:before { content: '\e872'; } /* '' */
+.icon-no_ver:before { content: '\e873'; } /* '' */
+.icon-no-link:before { content: '\e874'; } /* '' */
+.icon-nombre:before { content: '\e875'; } /* '' */
+.icon-ok_mano:before { content: '\e876'; } /* '' */
+.icon-ordenador_pincel:before { content: '\e877'; } /* '' */
+.icon-ok:before { content: '\e878'; } /* '' */
+.icon-pesas:before { content: '\e879'; } /* '' */
+.icon-pie:before { content: '\e87a'; } /* '' */
+.icon-pincel:before { content: '\e87b'; } /* '' */
+.icon-open:before { content: '\e87c'; } /* '' */
+.icon-ordenador_usuario:before { content: '\e87d'; } /* '' */
+.icon-ordenador:before { content: '\e87e'; } /* '' */
+.icon-pantalon:before { content: '\e87f'; } /* '' */
+.icon-pantonera:before { content: '\e880'; } /* '' */
+.icon-parte_temario:before { content: '\e881'; } /* '' */
+.icon-papiro:before { content: '\e882'; } /* '' */
+.icon-password:before { content: '\e883'; } /* '' */
+.icon-pause:before { content: '\e884'; } /* '' */
+.icon-pelo:before { content: '\e885'; } /* '' */
+.icon-plantillas:before { content: '\e886'; } /* '' */
+.icon-play:before { content: '\e887'; } /* '' */
+.icon-pomodoro:before { content: '\e888'; } /* '' */
+.icon-porta_movil:before { content: '\e889'; } /* '' */
+.icon-pregunta_1:before { content: '\e88a'; } /* '' */
+.icon-pregunta_impugnada:before { content: '\e88b'; } /* '' */
+.icon-pregunta_justificada:before { content: '\e88c'; } /* '' */
+.icon-pregunta:before { content: '\e88d'; } /* '' */
+.icon-preguntas_caso_practico:before { content: '\e88e'; } /* '' */
+.icon-preguntas_no:before { content: '\e88f'; } /* '' */
+.icon-preguntas:before { content: '\e890'; } /* '' */
+.icon-premium:before { content: '\e891'; } /* '' */
+.icon-pulmones:before { content: '\e892'; } /* '' */
+.icon-taza_cafe:before { content: '\e893'; } /* '' */
+.icon-ranking_medalla:before { content: '\e894'; } /* '' */
+.icon-ranking:before { content: '\e895'; } /* '' */
+.icon-reloj:before { content: '\e896'; } /* '' */
+.icon-respuestas_no:before { content: '\e897'; } /* '' */
+.icon-respuestas:before { content: '\e898'; } /* '' */
+.icon-stop:before { content: '\e89a'; } /* '' */
+.icon-saturacion:before { content: '\e89b'; } /* '' */
+.icon-tacho_basura:before { content: '\e89c'; } /* '' */
+.icon-taza_te:before { content: '\e89d'; } /* '' */
+.icon-tema:before { content: '\e89e'; } /* '' */
+.icon-temario:before { content: '\e89f'; } /* '' */
+.icon-temas:before { content: '\e8a0'; } /* '' */
+.icon-test_rapido:before { content: '\e8a1'; } /* '' */
+.icon-test:before { content: '\e8a2'; } /* '' */
+.icon-ticket:before { content: '\e8a3'; } /* '' */
+.icon-todo_ok:before { content: '\e8a4'; } /* '' */
+.icon-tw:before { content: '\e8a5'; } /* '' */
+.icon-usuario_1:before { content: '\e8a6'; } /* '' */
+.icon-usuario_ok:before { content: '\e8a7'; } /* '' */
+.icon-usuario:before { content: '\e8a8'; } /* '' */
+.icon-ver:before { content: '\e8a9'; } /* '' */
+.icon-wifi:before { content: '\e8aa'; } /* '' */
+.icon-yb:before { content: '\e8ab'; } /* '' */
+.icon-winrate:before { content: '\e8ac'; } /* '' */
+.icon-analiticas-1:before { content: '\e8b3'; } /* '' */
+.icon-retos:before { content: '\e8b4'; } /* '' */
