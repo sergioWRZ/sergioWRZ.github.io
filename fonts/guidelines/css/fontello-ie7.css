@@ -181,5 +181,6 @@
 .icon-wifi { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8aa;&nbsp;'); }
 .icon-yb { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8ab;&nbsp;'); }
 .icon-winrate { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8ac;&nbsp;'); }
+.icon-pregunta_sin-contestar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8ad;&nbsp;'); }
 .icon-analiticas-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b3;&nbsp;'); }
 .icon-retos { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b4;&nbsp;'); }
