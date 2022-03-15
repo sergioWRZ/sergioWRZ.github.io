@@ -560,6 +560,18 @@
 .ml-icon-pregunta_sin-contestar:before {
 	content: '\e8ad';
 } /* '' */
+.ml-icon-checkbox-empty:before {
+	content: '\e8ae';
+} /* '' */
+.ml-icon-checkbox-mal:before {
+	content: '\e8af';
+} /* '' */
+.ml-icon-checkbox-nan:before {
+	content: '\e8b0';
+} /* '' */
+.ml-icon-checkbox-ok:before {
+	content: '\e8b1';
+} /* '' */
 /* 'î¢Œ' */
  .ml-icon-pregunta:before {
 	 content: '\e88d';
